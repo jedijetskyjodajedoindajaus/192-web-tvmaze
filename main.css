@@ -1,0 +1,109 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+  width: 100%;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #3F3F3F; 
+ 
+}
+
+.header__logo{
+   margin-left: 70px;
+   width: 150px; 
+   
+}
+
+.header__logoimg{
+   
+    width:100%
+}
+
+
+.header__input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    margin-right: 350px; 
+}
+
+
+.headerinput__search{
+
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-radius: 40px 0px 0px 40px;
+    width: 450px;
+    height: 18px;
+    margin-left:30px;
+    border: none;
+    font-size: 14pt;
+    font-family: Source Sans Pro;
+    font-style: ExtraLight;
+   
+}
+
+.headerinput__button{
+
+    border-radius: 0px 40px 40px 0px;
+    height: 43px;
+    width: 110px;
+    border: none;
+    background: #3C948B;
+}
+
+
+.haction{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.haction a{
+    
+    text-decoration: none;
+    font-size: 15pt;
+    padding: 0.5em;
+    font-family: Source Sans Pro, ExtraLight;
+    font-style: ExtraLight;
+    color: white;
+}
+
+.haction a:hover{
+    color:#3C948B;
+}
+
+.nav{
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width:100%;
+    height: 40px;
+    background: #3C948B;
+
+}
+
+.nav a:first-child{
+    margin-left: 70px;
+}
+.nav__item{
+    font-family: Source Sans Pro, ExtraLight;
+    margin-top: 8px;
+    margin-right: 3em;
+    text-decoration: none;
+    color:white;
+}
+
+.nav__item:hover{ 
+    background: #3F3F3F;
+}
+    
+
+
+
+
